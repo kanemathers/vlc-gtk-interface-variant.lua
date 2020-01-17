@@ -21,7 +21,7 @@ I've gone the lazy route and created my own ~/bin/vlc wrapper with an
 accompanying /.local/share/applications/vlc.desktop file.
 
 Within VLC, you can then configure the window style to use your desired QT
-theme:
+theme. In my case, `Adwaita-Dark`:
 
 Tools > Preferences > Interface > Force Window Style
 
