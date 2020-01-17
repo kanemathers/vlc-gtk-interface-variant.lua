@@ -23,5 +23,5 @@ if exit_code == nil then
 
     local wintitle = item:name() .. " - " .. window_title
 
-    os.execute("xprop -f _GTK_THEME_VARIANT 8u -set _GTK_THEME_VARIANT " .. variant .." -name '" .. wintitle .. "'")
+    os.execute("xprop -f _GTK_THEME_VARIANT 8u -set _GTK_THEME_VARIANT " .. variant .. " -name '" .. wintitle .. "'")
 end
